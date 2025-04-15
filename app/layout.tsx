@@ -10,6 +10,7 @@ const geistSans = localFont({
   variable: "--font-geist-sans",
   weight: "100 900",
 });
+
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
@@ -28,14 +29,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Providers>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white dark:bg-black transition-all delay-75 text-black dark:text-gray-200`}
       >
-        {children}  
-      <ThemeSwitcher />
+        <Providers>
+          {children}
+          <ThemeSwitcher />
+        </Providers>
       </body>
-      </Providers>
     </html>
   );
 }

@@ -3,9 +3,7 @@ const nextConfig = {
   images: {
     domains: ['hatrabbits.com'],
   },
-  output: 'export', // Add this line for static export
-  basePath: '/token-launchpad-solana', // Adjust this to your repository name
-  assetPrefix: '/token-launchpad-solana/', // Adjust this to your repository name
+  output: 'export', // 👈 required for static export (replaces next export)
 };
 
 export default nextConfig;
