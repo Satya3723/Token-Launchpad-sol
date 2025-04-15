@@ -1,36 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This application requires an Active Wallet linked with a Web Extension for seamless transaction management. We have integrated support for Solana, a fast and secure blockchain, to facilitate easy and efficient transactions.
 
-## Getting Started
+Solana Blockchain Transactions
+Solana Network: The application utilizes the Solana blockchain for transaction processing, leveraging its low fees and high speed.
 
-First, run the development server:
+Web Extension: To interact with the Solana blockchain, the application requires a compatible Web Extension Wallet, such as Phantom, Sollet, or Solflare, which allows users to securely manage their Solana tokens.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Transaction Flow: Users can send, receive, and view their Solana tokens directly within the application once their wallet is connected.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Security: All transactions are securely signed via the wallet and handled through the Solana blockchain’s decentralized network, ensuring safety and privacy.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Make sure to install and set up one of the supported Solana Web Extension wallets to start using the application.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To Preview our site you can use "https://token-launchpad-sol-three.vercel.app/"
+To run the Project in your localhost, please clone the repo and use the command "npm run dev"
